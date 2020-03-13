@@ -64,3 +64,40 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+*{
+	max-width:100%
+}
+/*comeback to fix header*/
+.container{
+	width:50%;
+	display:flex;
+	justify-content: space-around;
+	margin-left:48%;
+}
+header{
+	width:56%;
+	display:flex;
+}
+
+nav{
+display:flex;
+	width:50%;
+	 
+}
+ .link{
+	 display:flex;
+	 justify-content: space-around;
+	 width:50%;
+	 color:grey;
+	 text-decoration:none;
+ }
+ /*sections*/
+
+ h1{
+	 font-size:20px;
+ }
+ div{
+	 width:50%;
+	 
+ }
+ 
