@@ -48,9 +48,8 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
+
+
 
 html, body {
     height: 100%;
@@ -95,6 +94,10 @@ display:flex;
 
  h1{
 	 font-size:20px;
+	
+ }
+ h2{
+	 width:50%;
  }
  div{
 	 width:50%;
@@ -137,4 +140,33 @@ display:flex;
 	   display:flex;
    }
    
-   
+   /*footer*/
+
+   .footer{
+	   width:20%;
+	   margin:20px;
+	   display:flex;
+	   flex-direction: column;
+	   justify-content: space-evenly;
+	
+	
+   }
+	 
+	 .lp{
+		 display:flex;
+		 width:35%;
+		 margin:20px;
+	 }
+	 
+	 .last{
+		 display:flex;
+		 justify-content: space-evenly;
+
+	 }
+	 .pf{
+		 padding:5px;
+	 }
+	 
+   ul{
+	   list-style: circle;
+   }
